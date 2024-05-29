@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+        <body>
+            <form action="http://novells.com">
+                <h1 align="center">Novell Services Login</h1>
+                <table>
+                 <tr>
+                    <td>
+                        <label>Username: &nbsp;&nbsp;</label>
+                    </td>
+                    <td>
+                        <input type="text" name="n" required minlength="2"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password: &nbsp;&nbsp;  </label>
+                    </td>
+                    <td>
+                        <input type="password" name="pwd" required><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>City of<br> Employment: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="city"><br><br>
+                    </td> 
+                </tr>
+                <tr>
+                    <td><label>Web Server: </label></td>
+                    <td><select>
+                    <option>-Choose a server-</option>
+                </select><br><br></td>
+                </tr>
+                <tr>
+                <td rowspan="4"><label>Please specify<br> your role:</label></td>
+                <td><input type="radio" name="p">Admin</td>
+                <input type="radio" name="p">Engineer</td>
+                <input type="radio" name="p">Manager</td>
+                <input type="radio" name="p">Guest<br><br>
+               </tr>
+               <tr>
+                 <td><label>Single Sign-on<br> to the following:</label></td>
+                 <td><input type="checkbox" name="s">Mail</td>
+                    <td><input type="checkbox" name="s">Payroll</td>
+                        <td><input type="checkbox" name="s">Self-service<br><br></td>
+               </tr>
+                <button type="l" align="center">Login</button>
+                <button type="r" align="center">Reset</button>
+            </table>
+
+
+            </form>
+        </body>
+    
+</html>
